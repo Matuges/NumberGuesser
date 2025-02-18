@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro jogo</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <section id="jogo">
+        <p id="digite">Digite seu numero aqui -></p><input id="numero" type="number" >
+        <button id="generate" onclick="gerar()">Gerar numero!</button>
+        <button id="advinhar">Advinhar</button>
+        <p id="alerta"></p>
+
+        <div id="chancestxt">Você possui <span id="chances"></span> chances restantes</div>
+    </section>
+
+    <section id="menu">
+        <button id="rulesbtn" onclick="show()">LISTA DE REGRAS</button>
+
+
+        <dialog>
+            <h1>Lista de regras</h1><button id="closerules">X</button>
+            
+            <p id="rules">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus saepe minima unde vero voluptatem ad libero maiores sint odio natus eius placeat nesciunt repudiandae obcaecati, incidunt necessitatibus officia aliquam!</p>
+
+
+        </dialog>
+    </section>
+        
+
+
+    <script src="script.js"></script>
+</body>
+</html>

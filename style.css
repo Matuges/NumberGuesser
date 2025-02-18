@@ -1,0 +1,183 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* BODY */
+
+*{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    background-color: rgb(20, 23, 34);
+    color: white;
+   
+} 
+
+/* MISC */
+
+section#menu {
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 31%;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    text-align: center;
+    background-color:rgb(20, 23, 34);;
+    border-color: rgba(0, 0, 0, 0.338);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.607);
+}
+#chancestxt {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);    
+    top: 15%;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#chances {
+    font-weight: 900;
+}
+
+#alerta {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);    
+    top: 20%;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    text-align: center;
+}
+
+#digite {
+    position: absolute;
+    left: 41%;
+    transform: translateX(-50%);
+    top: 30%;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    text-align: center;
+    text-transform: uppercase;
+}
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0;
+}
+
+/* RULES */
+dialog::backdrop {
+    background-color: black(0 0 0 / .5);
+}
+
+dialog {  
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(0, 0, 0 / .3);
+    width: 50%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+button#rulesbtn {
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+}
+
+button#closerules {
+    background-color: rgba(255, 255, 255, 0.497);
+    position:absolute;
+    top: 8%;
+    right: 3%;
+    border-color: rgb(37, 37, 37);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+/* Buttons */
+button {
+    background-color: rgb(20, 23, 34);
+    color: rgb(255, 255, 255);
+    border-color: rgba(20, 23, 34, 0);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.607);
+    border-radius: 7px;
+    text-align: justify;
+    text-align: center;
+    font-size: 15px;
+}
+
+button:hover  { 
+    background-color: rgb(56, 56, 56);
+    cursor:pointer;
+}
+
+button#generate {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    width: 200px;
+    height: 30px;
+}
+
+button#advinhar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+    width: 200px;
+    height: 30px;
+}
+
+/* MENU */
+
+#titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);    
+    top: 15%;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#play {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    width: 300px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
